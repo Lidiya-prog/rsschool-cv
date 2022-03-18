@@ -57,6 +57,24 @@ export class Question {
 }
 ```
 
+## Experience
+
+* Engineer of the 2nd category in
+[OOO "Special technology center"](https://www.stc-spb.ru/)
+
+SEP, 2021 - PRESENT
+
+Preparing layouts with HTML, CSS Development SPA
+Development logic for new components Support of current projects
+Code refactoring
+Code review
+Fix bugs
+Mentors Junior Frontend developers
+Teamwork, interaction with back end developers, QA, project manager and designer
+stack: Vue.js, Vuex, Vue router, TypeScript, GraphQL, sass, pug, Git All projects are protected by NDA
+
+* Frontend developer in the team [Whishlist](https://wishlist.shefer.dev/#/)
+
 ## Education
 
 * **University:** South Ural State University,
@@ -68,6 +86,12 @@ BACHELOR OF LAW, 2018
     - Frontend-developer, GEEKBRAINS, 2021
     - JavaScript, [LEARN.JAVASCRIPT.RU](https://learn.javascript.ru/), 2021, 2022
 
+
+## Languages
+
+* Russian (native speaker)
+* English (B1)
+* Spanish (A1)
 
 
 
