@@ -6,6 +6,7 @@
 * **Phone:** +7-912-897-34-10
 * **E-mail:** lmorshchinka@gmail.com
 * **Github:** Lidiya-prog
+* **Discord:** Lidiya (@lidiya-prog)
 
 ## Personal
 
