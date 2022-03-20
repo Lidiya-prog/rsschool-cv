@@ -9,9 +9,7 @@
 
 ## Personal
 
-I’m currently working in [OOO "Special technology center"](https://www.stc-spb.ru/),  I'm Engineer of the 2nd category ( frontend developer).
-
-https://www.stc-spb.ru/
+I’m currently working in [OOO "Special technology center"](https://www.stc-spb.ru/),  I'm Engineer of the 2nd category ( frontend developer). My goal is to improve my skills and become a senior developer.  I love to study and learn something new everyday, and I really want to and develop new skills.
 
 ## Hard skills
 
