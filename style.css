@@ -110,10 +110,6 @@ p {
   object-fit: cover;
 }
 
-.left-side {
-  padding-top: 20px;
-}
-
 section {
   margin-bottom: 40px;
   width: auto;
@@ -214,7 +210,6 @@ li::before {
   }
   .header-img-container {
     order: 1;
-    /* background-color: transparent; */
   }
   .header-img-container img {
     width: 200px;
