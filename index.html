@@ -81,7 +81,7 @@
             <ul>
               <li>HTML</li>
               <li>
-                CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology)
+                CSS (Framework Bootstrap, Preprocessor SASS, Pug, BEM methodology)
               </li>
               <li>
                 JavaScript (Fundamentals,Functional Programming, OOP,
@@ -104,30 +104,30 @@
           <section class="code">
             <h2>Code examples</h2>
             <pre>
-        <code>
-            export class Question {
-                static create(question) {
-                  return fetch(
-                    "https://podcast-app-project-1165d-default-rtdb.firebaseio.com/questions.json",
-                    {
-                      method: "POST",
-                      body: JSON.stringify(question),
-                      headers: {
-                        "Content-Type": "application/json",
-                      },
-                    }
-                  )
-                    .then((response) => response.json())
-                    .then((response) => {
-                      question.id = response.name;
-                      return question;
-                    })
-                    .then(addToLocalStorage)
-                    .then(Question.renderList);
+              <code>
+                export class Question {
+                  static create(question) {
+                    return fetch(
+                      "https://podcast-app-project-1165d-default-rtdb.firebaseio.com/questions.json",
+                      {
+                        method: "POST",
+                        body: JSON.stringify(question),
+                        headers: {
+                          "Content-Type": "application/json",
+                        },
+                      }
+                    )
+                      .then((response) => response.json())
+                      .then((response) => {
+                        question.id = response.name;
+                        return question;
+                      })
+                      .then(addToLocalStorage)
+                      .then(Question.renderList);
+                  }
                 }
-              }
-        </code>
-    </pre>
+              </code>
+            </pre>
           </section>
           <section class="experience">
             <h2>Experience</h2>
@@ -162,19 +162,19 @@
           </section>
         </div>
       </main>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-git">
+            <a href="https://github.com/Lidiya-prog" target="_blank"></a>
+          </div>
+          <div class="footer-info">
+            <span>2022</span>
+          </div>
+          <div class="footer-logo">
+            <a href="https://rs.school/js/" target="_blank"></a>
+          </div>
+        </div>
+      </footer>
     </div>
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-git">
-          <a href="https://github.com/Lidiya-prog" target="_blank"></a>
-        </div>
-        <div class="footer-info">
-          <span>2022</span>
-        </div>
-        <div class="footer-logo">
-          <a href="https://rs.school/js/" target="_blank"></a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
