@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-content">
+        <div class="header-title">
+          <h1>Lidiya Morshchinina</h1>
+          <h2>FRONTEND DEVELOPER</h2>
+        </div>
+        <div class="header-img-container left-side">
+          <img src="./assets/img/avatar.jpg" alt="Photo" width="200" height="230">
+        </div>
+      </header>
+      <main class="main-container">
+        <div class="main-content left-side">
+          <section class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li><b>Adress:</b> Russia, Saint Petersburg</li>
+              <li><b>Phone:</b> +7-912-897-34-10</li>
+              <li><b>E-mail</b>: lmorshchinka@gmail.com</li>
+              <li><b>Github:</b> Lidiya-prog</li>
+              <li><b>Discord:</b> Lidiya (@lidiya-prog)</li>
+            </ul>
+          </section>
+          <section class="personal-info">
+            <h2>Personal</h2>
+            <p>
+              I’m currently working in
+              <a href="https://www.stc-spb.ru/" target="blank"
+                >OOO "Special technology center"</a
+              >, I'm Engineer of the 2nd category ( frontend developer). My goal
+              is to improve my skills and become a senior developer. I love to
+              study and learn something new everyday, and I really want to and
+              develop new skills.
+            </p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+            <ul>
+              <li>
+                <span>
+                  <b> University:</b> South Ural State University, BACHELOR OF LAW, 2018
+                </span>
+              </li>
+              <li>
+                <span><b>Courses:</b></span>
+                <ul>
+                  <li>JavaScript/Front-end 2022Q1, present</li>
+                  <li>Professional layout, HTML ACADEMY, 2022</li>
+                  <li>Vue js 3, VLADILEN MININ, 2022</li>
+                  <li>Frontend-developer, GEEKBRAINS, 2021</li>
+                  <li>
+                    JavaScript,
+                    <a href="https://learn.javascript.ru/" target="blank"
+                      >LEARN.JAVASCRIPT.RU</a
+                    >, 2021, 2022
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Russian (native speaker)</li>
+              <li>English (B1)</li>
+              <li>Spanish (A1)</li>
+            </ul>
+          </section>
+        </div>
+        <div class="main-content right-side">
+          <section class="skills">
+            <h2>Hard skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>
+                CSS (Framework Bootstrap, Preprocessor SASS, Pug, BEM methodology)
+              </li>
+              <li>
+                JavaScript (Fundamentals,Functional Programming, OOP,
+                Asynchronous JavaScript, ES6+,DOM),JSON
+              </li>
+              <li>TypeScript</li>
+              <li>VueJS</li>
+              <li>Vuex</li>
+              <li>Vue router</li>
+              <li>Graph QL</li>
+              <li>Git</li>
+              <li>Firebase</li>
+              <li>Jira</li>
+              <li>Confluence</li>
+              <li>Webpack</li>
+              <li>Figma</li>
+              <li>Windows OS, Linux(Ubuntu)</li>
+            </ul>
+          </section>
+          <section class="code">
+            <h2>Code examples</h2>
+            <pre>
+              <code>
+                export class Question {
+                  static create(question) {
+                    return fetch(
+                      "https://podcast-app-project-1165d-default-rtdb.firebaseio.com/questions.json",
+                      {
+                        method: "POST",
+                        body: JSON.stringify(question),
+                        headers: {
+                          "Content-Type": "application/json",
+                        },
+                      }
+                    )
+                      .then((response) => response.json())
+                      .then((response) => {
+                        question.id = response.name;
+                        return question;
+                      })
+                      .then(addToLocalStorage)
+                      .then(Question.renderList);
+                  }
+                }
+              </code>
+            </pre>
+          </section>
+          <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+              <li>
+                <h4>
+                  Engineer of the 2nd category in OOO "Special technology
+                  center"
+                </h4>
+                <p>SEP, 2021 - PRESENT</p>
+                <p>
+                  Preparing layouts with HTML, CSS Development SPA Development
+                  logic for new components Support of current projects Code
+                  refactoring Code review Fix bugs Mentors Junior Frontend
+                  developers Teamwork, interaction with back end developers, QA,
+                  project manager and designer stack: Vue.js, Vuex, Vue router,
+                  TypeScript, GraphQL, sass, pug, Git All projects are protected
+                  by NDA
+                </p>
+              </li>
+              <li>
+                <h4>
+                  Frontend developer in the team
+                  <a href="https://wishlist.shefer.dev/#/" target="blank"
+                    >Whishlist</a
+                  >
+                </h4>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-git">
+            <a href="https://github.com/Lidiya-prog" target="_blank"></a>
+          </div>
+          <div class="footer-info">
+            <span>2022</span>
+          </div>
+          <div class="footer-logo">
+            <a href="https://rs.school/js/" target="_blank"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
